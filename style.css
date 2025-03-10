@@ -1,0 +1,70 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.hero {
+  position: relative;
+  text-align: center;
+  color: white;
+  height: 600px;
+  overflow: hidden;
+}
+
+.hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.hero-text h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.hero-text p {
+  font-size: 1.5em;
+}
+
+/* Add more CSS as needed */
+
+.nav {
+    background-color: #f0f0f0;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.nav a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    color: #66cc33;
+}
+
+.map-container {
+    text-align: center;
+    margin: 30px auto;
+    width: 600px;
+}
+
+.video-container {
+    text-align: center;
+    margin: 30px auto;
+    width: 338px;
+}
