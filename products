@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GreenLeaf Organics - Products</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <a href="index.html">Homepage</a>
+    <a href="products.html">Products</a>
+    <a href="about.html">About Us</a>
+    <a href="contact.html">Contact Us</a>
+  </nav>
+
+  <div class="product-display">
+    <img src="https://i.imgur.com/Icw9psL.jpg" alt="Organic Produce">
+    <h2>Our Fresh Produce</h2>
+    <p>Discover the vibrant flavors of our locally sourced organic fruits and vegetables.</p>
+  </div>
+
+  <div class="carousel">
+    <div class="carousel-inner">
+      <img src="https://i.imgur.com/fBFQ5n6.jpg" alt="Product 1">
+      <img src="https://i.imgur.com/ntaZVup.jpg" alt="Product 2">
+      <img src="https://i.imgur.com/Icw9psL.jpg" alt="Product 3">
+    </div>
+    <div class="carousel-controls">
+      <button onclick="prevSlide()">❮</button>
+      <button onclick="nextSlide()">❯</button>
+    </div>
+  </div>
+
+  <h2>Other Products</h2>
+  <p>We also offer a wide range of organic grains, pulses, spices, and more.</p>
+  <ul>
+      <li>Organic Rice and Grains</li>
+      <li>Organic Pulses and Lentils</li>
+      <li>Organic Spices</li>
+      <li>Organic Oils</li>
+      <li>Organic Dairy Products</li>
+      <li>Artisan Breads and Baked Goods</li>
+  </ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
